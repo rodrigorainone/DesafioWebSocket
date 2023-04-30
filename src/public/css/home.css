@@ -1,0 +1,36 @@
+body{
+    background-color: darkcyan;
+    text-align: center;
+}
+
+#cart{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex ;
+    flex-direction: column;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 15px;
+    width: 400px;
+    padding-left: 15px;
+    gap:10px;
+    text-align: left;
+}
+
+.keyDer{
+    color:blue;
+    font-weight: bold;    
+}
+
+#mostrarProductos{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 0;
+}
